@@ -1,0 +1,283 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 19px;
+    background: linear-gradient(180deg, rgba(245, 71, 72, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+ }
+ nav a{
+     margin-right: 2rem;
+     color: #191919;
+     text-decoration: none;
+ }
+ nav input{
+     background-color: #f54748;
+     width: 162px;
+     height: 45px;
+     border-radius: 50px;
+     border: none;
+     color: bisque;
+ }
+ .ti #um{
+     display: flex;
+     position: relative;
+     float: right;
+ }
+ .main h1{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 58px;
+     line-height: 78px;
+ }
+ .main p{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 32px;
+     letter-spacing: -0.01em;    
+ }
+ .main input{
+     background-color: #f54748;
+     width: 162px;
+     height: 45px;
+     border-radius: 50px;
+     border: none;
+     color: bisque;
+ }
+.section {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:10rem;
+ }
+ .ti #dois input{
+     margin-bottom: 2rem;
+     margin-top: 2rem;
+     width: 500px;
+     height: 45px;
+     border-radius: 50px;
+     border: none;
+     text-align: center;
+     color: black;
+     background-color: rgb(223, 220, 220);
+ }
+ .ta #tres{
+     margin-top: 6rem;
+     text-align: center;
+ }
+ .diva p{
+   width:90%;
+ }
+ .lol{
+    background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+    border-radius: 20px;
+    padding: 20px;
+ }
+ .ta .quatro h2{
+     font-family: sans-serif;
+     color: red;
+     font-weight: 700px;
+ }
+ .quatro {
+     display: flex;
+     color:#000000;
+     width: 80%;
+     text-align: center;
+     margin-bottom: 2rem;
+     margin-top: 3rem;
+     flex-wrap: wrap;
+ }
+ .te #a img{
+     display: flex;
+     position: static;
+     float: left;
+ }
+ .te #a{
+     margin-top: 12rem;
+     text-align: center;
+ }
+ .te #a p{
+     margin-bottom: 3rem;
+     text-align: center;
+ }
+ .te .chef{
+    display: flex;
+    width:20%;
+ }
+ .te #a input{
+     margin-top: 2rem;
+     margin-bottom: 20rem;
+     text-align: center;
+ }
+ .to h1{
+     text-align: center;
+ }
+ .to #inp input{
+     margin-top: 1rem;
+     text-align: center;
+     width: 98px;
+     height: 44px;
+     margin-bottom: 6rem;
+ }
+ .to #inp{
+     display: flex;
+     position: relative;
+     align-items: center;
+     width: 70%;
+ }
+ .to #d{
+     display: flex;
+     flex-direction: row;
+     color:#000000;
+     width: 80%;
+     text-align: center;
+     margin-bottom: 2rem;
+     padding: 5px;
+     flex-wrap: wrap;
+ }
+ .to #e{
+     display: flex;
+     flex-direction: row;
+     color:#000000;
+     width: 80%;
+     text-align: center;
+     margin-bottom: 2rem;
+     margin-top: 3rem;
+     padding: 5px;
+     flex-wrap: wrap;
+ }
+ .to #f h1{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 33px;
+     text-align: center;
+     text-transform: capitalize;
+     color: #F54748;
+ }
+ .tu{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #e9c480 73.18%);
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+ .footer h2{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 32px;
+     line-height: 44px;
+     color: #F54748;
+ }
+ .footer h3{
+     font-family: 'Sofia Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 24px;
+     color: #191919;
+ }
+ .footer #fo{
+     display: flex;
+     position: relative;
+     text-align: center;
+     align-items: space-between;
+     margin-bottom: 10rem;
+ }
+ .footer #fou{
+    display: flex;
+ }
+ .but{
+    align-items: center;
+ }
+ .menumob{
+    display: flex;
+    display:none;
+ }
+ .orange{
+    display: flex;
+    display:none;
+ }
+ .folha{
+    display: flex;
+    float: right; 
+ }
+ @media screen and (max-width:480px) {
+    .section #um{
+        display: none;
+    }
+    .menumob{
+        display: flex;
+        float:right;
+    }
+    .orange{
+        display: flex;
+        float: right;
+    }
+    .folha{
+        display: flex;
+        float: right;
+    }
+    #inp{
+        flex-wrap: wrap;
+        padding-top: 1rem;
+    }
+     nav{
+        display: none;
+     }
+     .main h1{
+        text-align: center;
+        font-weight: 500;
+     }
+     .main p{
+        text-align: center;
+        justify-content: center;
+     }
+     #dois img{
+        margin-top: 4rem;
+        align-items: center;
+     }
+     .ti #dois input{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        width: 440px;
+        height: 45px;
+        border-radius: 50px;
+    }
+    .ta #tres p{
+        max-width: 90%;
+    }
+    .te #a img{
+        width: 100%;
+        height: auto;
+    }
+    .tu{
+        background-color:none;
+    }
+    .to #d{
+        display:none;
+    }
+    .tu{
+        background:none;
+        text-align:center;
+        flex-wrap: wrap;
+    }
+    .tu img{
+        width: 100%;
+    }
+    .tu #imagi{
+        width: 20%;
+    }
+    #fou{
+        padding:10%;
+    }
+    .footer #fo{
+        flex-wrap: wrap;
+    }
+}
